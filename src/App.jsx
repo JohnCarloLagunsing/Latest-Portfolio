@@ -1,10 +1,11 @@
 import "./App.css";
 import Header from "./Header";
 import Home from "./sections/Home";
-import About from "./sections/About";
-import Contact from "./sections/Contact";
+import Skills from "./sections/Skills";
 import Achievements from "./sections/Achievements";
+import PreviousProject from "./sections/PreviousProject";
 import Footer from "./Footer"
+
 
 function App() {
   return (
@@ -12,8 +13,8 @@ function App() {
       <Header/>
       <main>
         <Home />
-        <About />
-        <Contact />
+        <Skills />
+        <PreviousProject /> 
         <Achievements />
       </main>
       <Footer/>
