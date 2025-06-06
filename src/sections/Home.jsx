@@ -5,11 +5,11 @@ import resumePDF from '../assets/John Carlo Lagunsing.pdf';
 
 const Home = () => {
   return (
-   <div className="lg:min-h-[90vh] md:min-h-[80vh] h-full px-12 py-5 w-full bg-black bg-opacity-50 flex justify-center items-center">
+   <div className="lg:min-h-[90vh] md:min-h-[80vh] h-full px-4 sm:px-6 md:px-12 py-5 w-full bg-black bg-opacity-50 flex justify-center items-center">
 
 <section
   id="home"
-  className="max-w-[1600px] text-white bg-opacity-50 flex flex-col-reverse sm:flex-col md:flex-col-reverse md:mt-2 lg:flex-row items-center justify-center px-10 gap-x-0 sm:mx-5 lg:gap-x-35"
+  className="max-w-[1600px] text-white bg-opacity-50 flex flex-col-reverse sm:flex-col md:flex-col-reverse md:mt-2 lg:flex-row items-center justify-center px-4 sm:px-6 md:px-10 gap-x-0 sm:mx-0 lg:gap-x-35"
 >
 
         {/* Text Section */}
