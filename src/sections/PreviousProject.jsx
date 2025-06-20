@@ -2,6 +2,7 @@ import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import capstoneImage from '../assets/capstoneproject.png';
 import Portfolio from '../assets/Porfolio.png';
+import latestPorfolio from '../assets/latestPorfolio.png';
 import Design1 from '../assets/Design1.jpg';
 import Design2 from '../assets/Design2.jpg';
 import Design3 from '../assets/Design3.jpg';
@@ -160,27 +161,25 @@ const PreviousProject = () => {
                 variants={itemVariants}
               >
                 <img
-                  src={Portfolio}
+                  src={latestPorfolio}
                   alt="Web Development Project 3"
                   className="w-full h-full object-contain transition-transform group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center p-4">
                   <div className="flex flex-col items-center space-y-4">
-                    <h3 className="text-white text-2xl font-medium">First Login Website</h3>
+                    <h3 className="text-white text-2xl font-medium">Latest Portfolio</h3>
                     <div className="flex flex-col items-center space-y-4">
                       <div className="flex flex-col items-center space-y-2">
-                        <AiFillHtml5 className="text-4xl text-orange-500" />
-                        <span className="text-orange-500 text-sm">HTML</span>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" className="w-10 h-10" />
+                        <span className="text-cyan-400 text-sm">React</span>
                       </div>
                       <div className="flex flex-col items-center space-y-2">
-                        <DiCss3 className="text-4xl text-blue-500" />
-                        <span className="text-blue-500 text-sm">CSS</span>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg" alt="Vite" className="w-10 h-10" />
+                        <span className="text-yellow-400 text-sm">Vite</span>
                       </div>
                     </div>
-                    <p className="text-gray-300 text-sm text-center">(Not Responsive - Login Design Only)</p>
                     <a 
-                      href="https://your-login-website-url.com" 
-                      target="_blank" 
+                      target="blank" 
                       rel="noopener noreferrer"
                       className="px-4 py-2 bg-transparent text-white border border-white rounded-md hover:bg-white/10 transition-colors"
                     >

@@ -4,6 +4,7 @@ import Home from "./sections/Home";
 import Skills from "./sections/Skills";
 import Achievements from "./sections/Achievements";
 import PreviousProject from "./sections/PreviousProject";
+
 import Footer from "./Footer"
 
 

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const navLinks = ["Home", "Skills", "Achievements & Education"];
+const navLinks = ["Home", "Skills", "Achievements & Education", "Contact"];
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,7 +10,8 @@ const Header = () => {
     if (id === "Achievements & Education") {
       const section = document.getElementById("achievements");
       if (section) {
-        section.scrollIntoView({ behavior: "smooth", block: "center" });
+        const isMobile = window.innerWidth < 768;
+        section.scrollIntoView({ behavior: "smooth", block: isMobile ? "start" : "center" });
       }
       setIsOpen(false);
       return;
@@ -23,13 +24,23 @@ const Header = () => {
       setIsOpen(false);
       return;
     }
+    if (id === "Contact") {
+      const section = document.getElementById("contact");
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+      setIsOpen(false);
+      return;
+    }
 
     const section = document.getElementById(id.toLowerCase());
     if (section) {
-      section.scrollIntoView({ behavior: "smooth", block: "center" });
+      const isMobile = window.innerWidth < 768;
+        section.scrollIntoView({ behavior: "smooth", block: isMobile ? "start" : "center" });
     }
     setIsOpen(false); 
   };
+  
 
   return (
     <header className="bg-black text-white p-4 shadow-md  w-full fixed top-0 left-0 z-[9999] font-poppins">

@@ -37,9 +37,16 @@ const Footer = () => {
     };
 
     return (
-        <footer className="bg-black text-white p-4 shadow-md w-full font-poppins mt-auto">
+        <footer id="contact"className="bg-black text-white p-4 shadow-md w-full font-poppins mt-auto">
             {/* Add ToastContainer to show notifications */}
-            <ToastContainer position="top-right" autoClose={5000} hideProgressBar={false} />
+            <ToastContainer
+                position="top-right"
+                autoClose={5000}
+                hideProgressBar={false}
+                toastClassName="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg  rounded-lg shadow-lg bg-gray-900 text-white"
+                bodyClassName="text-sm sm:text-base"
+                style={{ width: '100%', maxWidth: '90vw', right: 0, left: 'auto' }}
+            />
             
             <div className="max-w-7xl mx-auto">
                 <div className="mb-8 flex flex-col md:flex-row gap-6">
@@ -116,7 +123,6 @@ const Footer = () => {
                         </form>
                     </div>
                 </div>
-
                 {/* Copyright Section - Centered at bottom */}
                 <div className="text-center border-t border-white pt-4">
                     <div className="text-sm text-white">

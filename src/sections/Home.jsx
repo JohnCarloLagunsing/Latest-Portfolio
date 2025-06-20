@@ -1,6 +1,7 @@
 import { Download } from 'lucide-react';
 import { FaFacebook, FaInstagram, FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import resumePDF from '../assets/John Carlo Lagunsing.pdf';
+import DPpic from '../assets/DPpic.png';
 
 
 const Home = () => {
@@ -89,9 +90,9 @@ const Home = () => {
         <div className="lg:w-1/2 flex flex-col justify-center md:order-2 order-1 sm:pt-2 sm:w-full lg:mt-0 mt-[45px]">
 
         <img
-  src="https://landing-page-5zim.vercel.app/Photos/Dp.jpg"
+  src={DPpic}
   alt="Profile"
-  className="rounded-full sm:mt-5 md:mt-0 lg:mt-0 h-full border-4 border-white shadow-lg"
+  className="w-96 h-96 sm:w-80 sm:h-80 md:w-120 md:h-120 object-cover rounded-full sm:mt-5 md:mt-0 lg:mt-0 md:ml-0 border-4 border-white shadow-lg"
 />
 
         </div>
