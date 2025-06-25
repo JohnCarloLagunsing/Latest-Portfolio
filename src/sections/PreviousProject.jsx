@@ -179,6 +179,7 @@ const PreviousProject = () => {
                       </div>
                     </div>
                     <a 
+                      href="https://latest-portfolio-five-eta.vercel.app/"
                       target="blank" 
                       rel="noopener noreferrer"
                       className="px-4 py-2 bg-transparent text-white border border-white rounded-md hover:bg-white/10 transition-colors"

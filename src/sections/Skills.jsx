@@ -108,6 +108,15 @@ const Skills = () => {
                     <p className="mt-2 text-center font-medium text-gray-700 group-hover:text-gray-800">{tech.name}</p>
                   </div>
                 ))}
+                <div className="col-span-full flex justify-center mt-3">
+                  <div className="flex flex-col items-center">
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg"
+                      alt="WordPress"
+                      className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-contain transition-all duration-300 group-hover:scale-110"
+                    />
+                  </div>
+                </div>
 
             {/* Design & Analysis Section */}
             <div className="col-span-full mt-12">

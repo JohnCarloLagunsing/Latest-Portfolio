@@ -1,5 +1,6 @@
 import BSULogo from '../assets/bsulogo.png';
 import HSLogo from '../assets/HSLogo.png';
+import VirtualBearsLogo from '../assets/VBlogo.png';
 
 const Achievements = () => {
     return (
@@ -54,6 +55,31 @@ const Achievements = () => {
                   </span>
                 </li>
               </ul>
+            </div>
+          </div>
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-4xl font-bold text-center mt-12 mb-12 text-gray-800">Work Experience</h2>
+            <div className="grid grid-cols-1 justify-items-center">
+              {/* Work Experience Card */}
+              <div className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 text-center max-w-md w-full">
+                <div className="flex flex-col items-center mb-6">
+                  <div className="w-32 h-32 rounded-full overflow-hidden bg-white flex items-center justify-center">
+                    <img 
+                      src={VirtualBearsLogo} 
+                      alt="Virtual Bears Logo" 
+                      className="w-90 h-90 object-contain"
+                    />
+                  </div>
+                  <h3 className="text-2xl font-semibold" style={{ color: '#f9ae54' }}>Tech stack used</h3>
+                </div>
+                <div className="flex justify-center gap-4 mb-4">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/WordPress_blue_logo.svg" alt="WordPress Logo" className="w-14 h-14 object-contain" />
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" alt="CSS3 Logo" className="w-14 h-14 object-contain" />
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML5 Logo" className="w-14 h-14 object-contain" />
+                </div>
+                <ul className="space-y-3">
+                </ul>
+              </div>
             </div>
           </div>
         </div>

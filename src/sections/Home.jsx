@@ -23,7 +23,7 @@ const Home = () => {
   John Carlo <br className="inline sm:hidden " /> M. <br className="inline sm:hidden" /> Lagunsing
 </h2>
 
-          <p className='font-bold text-center lg:text-left md:text-center' >Web Developer | Editor | Business Analyst</p>
+          <p className='font-mono text-lg font-semibold text-center lg:text-left md:text-center tracking-wide'>Web Developer &bull; Editor &bull; Business Analyst</p>
           <p className="max-w-lg text-white text-lg leading-7 !text-center lg:!text-left md:text-center">
             A full-stack developer and skilled editor, I am eager for success in the IT industry.
             I am excited to contribute my expertise to dynamic projects and look forward to
