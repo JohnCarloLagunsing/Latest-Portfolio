@@ -67,7 +67,7 @@ const Achievements = () => {
                     <img 
                       src={VirtualBearsLogo} 
                       alt="Virtual Bears Logo" 
-                      className="w-90 h-90 object-contain"
+                      className="object-contain"style={{height:'100%'}}
                     />
                   </div>
                   <h3 className="text-2xl font-semibold" style={{ color: '#f9ae54' }}>Tech stack used</h3>
