@@ -1,6 +1,8 @@
 import BSULogo from '../assets/bsulogo.png';
 import HSLogo from '../assets/HSLogo.png';
 import VirtualBearsLogo from '../assets/VBlogo.png';
+import collegeCertificatePDF from '../assets/John Carlo M. Lagunsing.pdf';
+import virtualBearsCertificatePDF from '../assets/Certificate of Completion (1).pdf';
 
 const Achievements = () => {
     return (
@@ -55,6 +57,14 @@ const Achievements = () => {
                   </span>
                 </li>
               </ul>
+              <a
+                className="mt-6 w-full md:w-auto md:max-w-xs md:self-center md:mx-auto flex items-center justify-center px-6 py-2 border-2 border-red-500 text-red-500 rounded-3xl font-semibold hover:bg-red-500 hover:text-white transition-colors duration-200"
+                href={collegeCertificatePDF}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View certificate
+              </a>
             </div>
           </div>
           <div className="max-w-6xl mx-auto">
@@ -77,6 +87,14 @@ const Achievements = () => {
                   <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" alt="CSS3 Logo" className="w-14 h-14 object-contain" />
                   <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML5 Logo" className="w-14 h-14 object-contain" />
                 </div>
+                <a
+                  className="mt-4 w-full md:w-auto md:max-w-xs md:self-center md:mx-auto flex items-center justify-center px-6 py-2 border-2 border-[#f9ae54] text-[#f9ae54] rounded-3xl font-semibold hover:bg-[#f9ae54] hover:text-white transition-colors duration-200"
+                  href={virtualBearsCertificatePDF}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View Certificate
+                </a>
                 <ul className="space-y-3">
                 </ul>
               </div>
