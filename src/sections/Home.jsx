@@ -1,6 +1,6 @@
 import { Download } from 'lucide-react';
 import { FaFacebook, FaInstagram, FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
-import resumePDF from '../assets/John_Carlo_M._Lagunsing_Resume.pdf';
+import resumePDF from '../assets/John Carlo Lagunsing Resume.pdf';
 import DPpic from '../assets/DPpic.png';
 
 
